@@ -9,5 +9,85 @@ body {
 
 .container {
 	padding: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.container .menu {
+	width: 70%;
 }
 
+.container .menu .header {
+	font-family: Gilroy;
+	color: #ffffff;
+}
+
+.container .menu .header p {
+	font-family: Poppins;
+	opacity: 0.5;
+}
+
+.container .menu .tags {
+	margin-top:5%;
+}
+
+.container .menu .tags .tag {
+	height: 70px;
+	width: 150px;
+	background: #352f44;
+	color: #ffffff;
+	font-family: Poppins;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.container .menu .tags .tag .icon { 
+	height: 50px;
+	width: 50px;
+}
+
+.container .menu .tags .tag .icon img { 
+	width: 100%;
+}
+
+.container .orders {
+	width:30%;
+}
+
+.container .orders .header h1 { 
+	font-family: Gilroy;
+	color: #fff;
+}
+
+.container .orders .header p { 
+	font-family: Open sans;
+	color: #fff;
+	opacity: 0.5;
+}
+
+/* Burgers */
+
+.container .burgers {
+	width: 300px;
+	margin-top: 5%;
+}
+
+.container .burgers .burger {
+	height: 280px;
+	width: 250px;
+	background-color: #352f44;
+	border-radius: 12px;
+	padding: 2%;
+}
+
+.container .burgers .burger .image {
+	height: 150px;
+	width: 250px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.container .burgers .burger .image img {
+	width: 100%;
+}
